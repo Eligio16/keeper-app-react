@@ -1,5 +1,6 @@
 import React from 'react';
 
-const Footer = () => <footer>Copyright Eligio 2022</footer>
+const fechaActual = new Date().getFullYear()
+const Footer = () => <footer>Copyright Eligio {fechaActual}</footer>
 
 export default  Footer;
